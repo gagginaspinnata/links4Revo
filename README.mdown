@@ -53,8 +53,15 @@ Installazione
 
 L'installazione è molto semplice, veloce e non dovrebbe comportare nessun problema. Ma siccome noi siamo molto scrupolosi **è raccomandabile effettuare un backup completo prima di procedere**.
 
-Aprite il file **home/salastampa/salastampa.php** e dopo il tag di chiusura php **?>** (lo trovate alla fine della lunga stringa del file) andate a capo ed incollate il seguente codice javascript:
+Anzi tutto dovete scaricare questo pacchetto.
 
+Aprite il file (della vostra installazione revo) **home/salastampa/salastampa.php** e dopo il tag di chiusura php **?>** (lo trovate alla fine della lunga stringa del file) andate a capo ed incollate il codice che trovate dentro il file links.html.
+
+Dovreste ritrovarvi con un file simile a questo:
+
+	<?php ................................. ?>
+
+	<script>
 	$(function(){
 
 	    /*-------------------------------------------------
@@ -80,6 +87,7 @@ Aprite il file **home/salastampa/salastampa.php** e dopo il tag di chiusura php 
 	        self.html(fixed_due);
 	    });
 	});
+	</script>
 
 Salvate il file ed avete finito ;)
 
