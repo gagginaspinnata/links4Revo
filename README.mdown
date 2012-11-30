@@ -17,7 +17,7 @@ Per scrivere un link in html basta usare la classica sintassi:
 
 	<a href="http://mio.link.it">Questo è un link </a>
 
-Da notare che è INDISPENSABILE la parte **http://**. Se non includete questa parte il link non funzionerà.
+Da notare che è INDISPENSABILE la parte **http://**  . Se non includete questa parte il link non funzionerà.
 
 Per scrivere un link in markdown invece è ancora più semplice:
 
@@ -27,7 +27,7 @@ Il precedente codice produrrà il seguente link:
 
 	<a href="http://urlDelLink.com">testo del link</a>
 
-Anche nel caso dei link in markdown è **indispensabile** che il link cominci per **http://**.
+Anche nel caso dei link in markdown è **indispensabile** che il link cominci per **http://**  .
 
 
 Stile css dei file
@@ -41,7 +41,7 @@ Basta andare a modificare la variabile **css** e scrivere lo stile css voluto.
 Qualcosa non funziona?
 ----------------------
 
-Questa modifica è più un hack che un addons o plugin. Essendo il codice di [revo][1] closed source quando si va a fare qualche modifica non sa mai bene cosa si va a toccare.
+Questa modifica è più un hack che un addons o plugin. Essendo il codice di [revo][1] closed source quando si va a fare qualche modifica non si sa mai bene cosa si va a toccare.
 
 Questo implica che ci possano essere delle cose che non vanno e che non è possibile prevedere.
 
@@ -53,7 +53,7 @@ Installazione
 
 L'installazione è molto semplice, veloce e non dovrebbe comportare nessun problema. Ma siccome noi siamo molto scrupolosi **è raccomandabile effettuare un backup completo prima di procedere**.
 
-Aprite il file **home/salastampa/salastampa.php** e dopo il tag di chiusura php **?>** (lo trovate alla fine della lunga stringa del file) andate a capito ed incollate il seguente codice javascript:
+Aprite il file **home/salastampa/salastampa.php** e dopo il tag di chiusura php **?>** (lo trovate alla fine della lunga stringa del file) andate a capo ed incollate il seguente codice javascript:
 
 	$(function(){
 
